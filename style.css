@@ -1,0 +1,36 @@
+body{
+    background-color: #e8f2ff;
+}
+ .contrainer {
+    border: 1px solid red;
+    height: 0450px;
+    position: relative;
+ }
+
+ .input_box{
+    border: 1px solid #0c93ff;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+ }
+ .input{
+
+ }
+
+ .repeat_box{
+    border: 1px solid #0c93ff;
+    width: 50%;
+    float: right;
+    height: 100%;
+ }
+
+ .texeArea{
+    
+   width: 99%;
+   height: 50%;
+ }
+
+ input[type="text"]{
+    width: 250px;
+    height: 40px;
+ }
