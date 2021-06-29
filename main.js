@@ -1,8 +1,7 @@
-let user_input = document.querySelector("type['text']") + " "  ; 
- 
-function repeatAlert(){
-
+  function repeatAlert(){
+    
+    let user_input = document.querySelector(".user_input").value + " "; 
     let repeatNum = prompt("Enter your repeated number:_  ");
-    document.querySelector(".texeArea").innerHTML = user_input.repeat(repeatNum);
+    document.querySelector(".texeArea").value = user_input.repeat(repeatNum);
 
-}
+} 
